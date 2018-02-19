@@ -1,0 +1,14 @@
+
+<div style="text-align: center">
+  <h2><%= gettext "Welcome to %{name}!", name: "Phoenix Chatdemo" %></h2>
+</div>
+
+<div id="messages"class="jumbotron chatdiv" style="padding-left: 0px; text-align: left">
+</div>
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon1">@</span>
+  </div>
+  <input id="username"type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+<input id="message-input"type="text" class="form-control" placeholder="Message" aria-label="Small" aria-describedby="inputGroup-sizing-sm">

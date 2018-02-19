@@ -1,0 +1,7 @@
+/* This file is for your main application css. */
+
+.chatdiv {
+  overflow: auto;
+  text-align: left;
+  max-height: 300px;
+}

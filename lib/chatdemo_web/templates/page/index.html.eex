@@ -2,7 +2,7 @@
 <div style="text-align: center">
   <h2><%= gettext "Welcome to %{name}!", name: "Phoenix Chatdemo" %></h2>
 </div>
-
+<label id="online"></label>
 <div id="messages"class="jumbotron chatdiv" style="padding-left: 0px; text-align: left">
 </div>
 <div class="input-group mb-3">

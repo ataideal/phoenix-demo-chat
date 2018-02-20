@@ -36,7 +36,7 @@ channel.on("presence_state", payload => {
 function updateOnlineCount(presence_list) {
   enterOrLeave (online,Object.keys(presence_list).length)
   online = Object.keys(presence_list).length
-  onlineLabel.innerHTML = "Users online: "+online
+  onlineLabel.innerHTML = "Tangas online: "+online
 }
 function enterOrLeave(online,newOnline){
   let messageItem = document.createElement("li");

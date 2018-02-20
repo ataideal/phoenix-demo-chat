@@ -23,7 +23,7 @@ force_ssl: [rewrite_on: [:x_forwarded_proto]],
 # Do not print debug messages in production
 config :logger, level: :info
 
-config :chatdemo, ChatdemoWeb.Repo,
+config :chatdemo, Chatdemo.Repo,
   adapter: Ecto.Adapters.Postgres,
   url: System.get_env("DATABASE_URL"),
   pool_size: String.to_integer(System.get_env("POOL_SIZE") || "10"),

@@ -49,7 +49,7 @@ config :logger, :console, format: "[$level] $message\n"
 config :phoenix, :stacktrace_depth, 20
 
 # Configure your database
-config :chatdemo, Chatdemo.Repo,
+config :chatdemo, ChatdemoWeb.Repo,
   adapter: Ecto.Adapters.Postgres,
   username: "d0zero",
   password: "",
